@@ -1,0 +1,6 @@
+[submodule "dataset/crows-pairs"]
+	path = dataset/crows-pairs
+	url = https://github.com/nyu-mll/crows-pairs
+[submodule "dataset/corefBias"]
+	path = dataset/corefBias
+	url = https://github.com/uclanlp/corefBias
