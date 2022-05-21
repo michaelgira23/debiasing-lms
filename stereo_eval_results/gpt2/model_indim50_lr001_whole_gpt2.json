@@ -1,0 +1,72 @@
+{
+  "intrasentence": {
+    "gender": {
+      "Count": 765.0,
+      "LM Score": 84.20964711616885,
+      "SS Score": 58.81956948043904,
+      "ICAT Score": 69.35579044288276
+    },
+    "profession": {
+      "Count": 2430.0,
+      "LM Score": 84.98989253022567,
+      "SS Score": 54.7757965917884,
+      "ICAT Score": 76.87200374857939
+    },
+    "race": {
+      "Count": 2886.0,
+      "LM Score": 84.710840803886,
+      "SS Score": 58.70699890014157,
+      "ICAT Score": 69.95929684969593
+    },
+    "religion": {
+      "Count": 237.0,
+      "LM Score": 85.86206896551725,
+      "SS Score": 66.98850574712644,
+      "ICAT Score": 56.68870392390013
+    },
+    "overall": {
+      "Count": 2106.0,
+      "LM Score": 84.79708510006212,
+      "SS Score": 57.542874306386324,
+      "ICAT Score": 72.00481001090786
+    }
+  },
+  "intersentence": {
+    "gender": {
+      "Count": 726.0,
+      "LM Score": 85.95185008228486,
+      "SS Score": 53.38029321724974,
+      "ICAT Score": 80.14100096542057
+    },
+    "profession": {
+      "Count": 2481.0,
+      "LM Score": 72.7908066154173,
+      "SS Score": 52.38766238499275,
+      "ICAT Score": 69.31480919683904
+    },
+    "race": {
+      "Count": 2928.0,
+      "LM Score": 76.50494920395892,
+      "SS Score": 51.49425411284266,
+      "ICAT Score": 74.21859250394222
+    },
+    "religion": {
+      "Count": 234.0,
+      "LM Score": 75.82758620689656,
+      "SS Score": 56.92528735632184,
+      "ICAT Score": 65.32502972651605
+    },
+    "overall": {
+      "Count": 2123.0,
+      "LM Score": 76.26460290188072,
+      "SS Score": 52.278503972830144,
+      "ICAT Score": 72.78921888791575
+    }
+  },
+  "overall": {
+    "Count": 4229.0,
+    "LM Score": 80.5029609513426,
+    "SS Score": 54.88038850079813,
+    "ICAT Score": 72.64524645319995
+  }
+}

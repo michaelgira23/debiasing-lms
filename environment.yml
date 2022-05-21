@@ -1,0 +1,10 @@
+name: unprejudiced
+channels:
+  - defaults
+dependencies:
+  - transformers
+  - cudatoolkit=11
+  - torchaudio
+  - pytorch
+  - torchvision
+  - scikit-learn

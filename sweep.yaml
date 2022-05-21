@@ -1,0 +1,39 @@
+program: sweep_training.py
+command:
+    - ${env}
+    - ${interpreter}
+    - ${program}
+method: bayes
+metric:
+    name: validation_loss
+    goal: minimize
+parameters:
+    num_epoches:
+        min: 1
+        max: 10
+    lr:
+        min: 0.000001
+        max: 0.1
+    batch_size:
+        min: 10
+        max: 100
+    optimizer:
+        values: ["adam"]
+    in_net:
+        values: [True, False]
+    in_net_init_identity:
+        values: [True, False]
+    out_net:
+        values: [True, False]
+    out_net_init_identity:
+        values: [True, False]
+    freeze_ln:
+        values: [True, False]
+    freeze_pos:
+        values: [True, False]
+    freeze_wte:
+        values: [True, False]
+    dup_lm_head:
+        values: [True, False]
+    dup_lm_head_bias:
+        values: [True, False]

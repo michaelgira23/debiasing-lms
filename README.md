@@ -1,15 +1,25 @@
-# Debiasing Language Models
+## Overview
 
-> Official code for _Debiasing Pre-Trained Language Models via Efficient Fine-Tuning_ published in the [Second Workshop on Language Technology for Equality, Diversity, Inclusion](https://sites.google.com/view/lt-edi-2022) at ACL 2022.
+This is the codebase for paper _Debiasing Pre-Trained Language Models via Efficient Fine-Tuning_. It contains code to reproduce our experiments and to evaluate models with StereoSet.
 
-**Currently placeholder. Code will be polished and published soon!**
+## Usage
 
-# Dataset
+### Set up the environment
 
-Our fine-tuning dataset consists of the [WinoBias](https://github.com/uclanlp/corefBias) and [CrowS-Pairs](https://github.com/nyu-mll/crows-pairs) datasets. After cloning the Git submodules for the respective datasets, run:
+Install Anaconda environment:
+` $ conda env create -f environment.yml `
 
-```bash
-python dataset/prepare.py
-```
+### Reproduce our fine-tuning experiments with GPT-2
 
-`prepare.py` combines the datasets from each repository and splits them into a training (80%), cross-validation (10%), and testing sets (10%).
+You can run experiments with:
+` $ python experimental_matrix_timed.py `
+
+### Evaluate a model with StereoSet metrics
+
+You can evaluate a model with StereoSet metrics with:
+` $ python eval_stereoset.py `
+
+### Generate Texts
+
+You can generate the texts given a prompt using our fine-tuned model with:
+` $ python generate_samples_unprejudiced.py `

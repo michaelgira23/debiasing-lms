@@ -1,0 +1,11 @@
+python training.py ^
+    --device cuda ^
+    --num_epoches 4 ^
+    --batch_size 25 ^
+    --lr 0.003898 ^
+    --input_max_dim 50 ^
+    --model_save_path 'unprejudiced/unprejudiced-5-4.pth' ^
+    --freeze_pos ^
+    --freeze_wte ^
+    --freeze_ff ^
+    --freeze_attn
