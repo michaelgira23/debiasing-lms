@@ -1,4 +1,4 @@
-# Debiasing Language Models
+# ⚖️ Debiasing Language Models
 
 > Official code for _Debiasing Pre-Trained Language Models via Efficient Fine-Tuning_ published in the [Second Workshop on Language Technology for Equality, Diversity, Inclusion](https://sites.google.com/view/lt-edi-2022) at ACL 2022.
 
