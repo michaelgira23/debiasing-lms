@@ -2,7 +2,7 @@
 
 > Official code for _Debiasing Pre-Trained Language Models via Efficient Fine-Tuning_ published in the [Second Workshop on Language Technology for Equality, Diversity, Inclusion](https://sites.google.com/view/lt-edi-2022) at ACL 2022.
 
-[View Demo](https://huggingface.co/spaces/michaelgira23/debiasing-lms)
+[View Demo](https://huggingface.co/spaces/michaelgira23/debiasing-lms) | [View Presentation](https://youtu.be/ErQ2NxIQ9Vg)
 
 **Currently placeholder. Code will be polished and published soon!** In the meantime, you can [take a look at the old code.](https://github.com/michaelgira23/debiasing-lms/tree/old)
 
